@@ -1,5 +1,5 @@
 <% @posts.each do |post| %>
-title: <%=post.title%><br>
+title: <%=post.title%><a href="/modify/<%=post.id%>">modify</a><br>
 content: <%=post.content%><hr>
 <% end %>
 <br>
